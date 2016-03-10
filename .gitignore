@@ -40,3 +40,10 @@ configure
 depcomp
 install-sh
 missing
+.deps/
+Makefile
+config.log
+config.status
+
+# Main executable
+driver
