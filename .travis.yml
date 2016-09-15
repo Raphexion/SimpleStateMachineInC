@@ -1,0 +1,7 @@
+language: c
+
+compiler:
+  - clang
+  - gcc
+
+script: mkdir -p m4 && ./autogen.sh && ./configure && make
